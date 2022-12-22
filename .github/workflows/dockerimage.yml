@@ -42,4 +42,4 @@ jobs:
         context: .
         platforms: linux/amd64,linux/arm64
         push: true
-        tags: pepaondrugs/minecraft-paper-server:latest,pepaondrugs/minecraft-paper-server:1.19
+        tags: pepaondrugs/minecraft-paper-server:latest,pepaondrugs/minecraft-paper-server:1.16.5
