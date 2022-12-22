@@ -6,5 +6,5 @@ LATEST_DOWNLOAD=$(curl -s "https://papermc.io/api/v2/projects/paper/versions/${P
 echo -----------------
 echo $PAPERMC_VERSION#$LATEST_BUILD
 echo -----------------
-PAPERMC_DOWNLOAD_URL="https://papermc.io/api/v2/projects/paper/versions/${PAPERMC_VERSION}/builds/${LATEST_BUILD}/downloads/${LATEST_DOWNLOAD}"
+PAPERMC_DOWNLOAD_URL="https://api.purpurmc.org/v2/purpur/1.16.5/1171/download"
 curl -s -o paperclip.jar ${PAPERMC_DOWNLOAD_URL}
