@@ -3,7 +3,7 @@ name: Build and push
 on: 
   push:
       branches:
-      - 'develop'
+      - '1.16.5-purpur'
   schedule:
   - cron: "0 */12 * * *"
 
